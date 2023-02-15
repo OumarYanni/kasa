@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
+import "./style/app.css";
+import home from "./pages/home";
+import aPropos from "./pages/aPropos";
+import logement from "./pages/logement";
+import { Routes, Route } from "react-router-dom";
+import untraceable from "./pages/untraceable";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<home />} />
+        <Route path="/aPropos" element={<aPropos />} />
+        <Route path="/products:id" element={<logement />} />
+        <Route path="*" element={<untraceable />} />
+      </Routes>
+    </>
   );
 }
 

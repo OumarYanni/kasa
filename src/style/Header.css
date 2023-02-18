@@ -58,39 +58,43 @@ a {
     text-decoration: none;
 }
 
-.paysage {
-    width: 1775px;
-    height: 220px;
-    margin-left: 70px;
-    border-radius: 25px;
-    mix-blend-mode: darken;
-    display: inline-block;
-    position: relative;
-}
-
-.paysage_dispo {
+.banner {
     display: flex;
+    justify-content: center;
 }
 
-.p_paysage {
-    z-index: 1;
+.banner_img {
+    max-width: 93%;
+    /*margin-left: 6%;*/
+    border-radius: 25px;
+    height: 226px;
+    filter: brightness(0.8)
+}
+
+/*.paysage_dispo {
+    display: flex;
+}*/
+
+.banner_paragraphe {
+    /*z-index: 1;*/
     position: absolute;
     top: 240px;
-    left: 650px;
-    color: white;
-    font-weight: 400;
+    left: 25%;
+    color: #ffff;
+    font-weight: 600;
     font-size: 48px;
 }
 
-.p_paysage_deux {
-    z-index: 1;
-    position: absolute;
-    top: 240px;
-    left: 885px;
-    color: white;
-    font-weight: 400;
-    font-size: 48px;
+            /* TABLETTE */
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+       display: flex;
+       justify-content: space-between;
+    }
 }
+
+
         /* MOBILE */
 @media screen and (max-width: 768px) {
 
@@ -113,12 +117,17 @@ a {
     .links {
         margin-right: 20px;
         margin-left: 50px;
+        width: 370px;
     }
     .link2 {
         margin-left: 25px;
     }
 
-    .paysage {
+    .banner {
+        width: max-content;
+    }
+
+    .banner_img {
         display: flex;
         width: 660px;
         /* top: 83px; */
@@ -127,32 +136,15 @@ a {
         margin-right: 20px;
     }
 
-    .paysage_dispo {
+    /*.paysage_dispo {
         flex-wrap: wrap;
-    }
+    }*/
 
-    .p_paysage {
-        top: 250px;
-        left: 100px;
-        width: 617px;
-        height: 30px;
+    .banner_paragraphe {
+        
+        left: 10%;
+        width: 635px;
+        
         margin: 0px;
-    }
-
-    .p_paysage_deux {
-        top: 300px;
-        left: 100px;
-        width: 617px;
-        height: 30px;
-        margin: 0px;
-    }
-}
-
-            /* TABLETTE */
-
-@media all and (min-width: 768px) and (max-width: 992px) {
-    .navbar {
-       display: flex;
-       justify-content: space-between;
     }
 }

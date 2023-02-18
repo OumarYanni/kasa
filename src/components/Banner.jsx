@@ -1,14 +1,13 @@
 import React from 'react';
 //import '../style/header.css';
-import background from '../assets/IMG_1_.webp';
+import background from '../assets/IMG_1_.png';
 
 function Banner() {
     return (
-        <article>
-            <img src={background} alt='paysage' className='paysage'/>
-            <div className="paysage_dispo">
-                <p className='p_paysage'>Chez vous,</p>
-                <p className='p_paysage_deux'>partout et ailleurs</p>
+        <article className='banner'>
+            <img src={background} alt='bannière représentant des rochers et la mer' className='banner_img'/>
+            <div /*</article>className="paysage_dispo"*/>
+                <p className='banner_paragraphe'>Chez vous, partout et ailleurs</p>
             </div>
          </article>
     )

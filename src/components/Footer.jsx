@@ -11,7 +11,7 @@ export default function Footer() {
                 <p className="footer_s">s</p>
                 <p className="footer_a">a</p>
             </div> 
-            <p className="footer_text"> © 2020 Kasa. All rights reserved</p>
+            <p className="footer_text"> © 2023 Kasa. All rights reserved</p>
         </footer>
     )
 }

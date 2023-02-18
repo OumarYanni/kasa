@@ -11,12 +11,12 @@ function Home() {
 return (
 // Utilisation des fragments React pour retourner plusieurs éléments adjacents
 <>
-<Header /> 
-<Banner /> 
-<main>
-<Cards productsList={productsList}/> 
-</main>
-<Footer />
+  <Header /> 
+  <Banner /> 
+  <main>
+  <Cards productsList={productsList}/> 
+  </main>
+  <Footer />
 </>
 );
 }

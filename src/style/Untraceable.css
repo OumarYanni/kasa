@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Nunito:wght@200&family=Roboto+Mono:wght@200&family=Roboto:wght@300&family=Shrikhand&family=Square+Peg&display=swap');
+
+.error {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6060;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero {
+    font-size: 288px;
+    font-weight: 700;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.oups {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 75px;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .error {
+        width: 600px;
+        margin-top: 200px;
+    }
+
+    .numero {
+        font-size: 96px;
+        font-weight: 900;
+    }
+
+    .oups {
+        font-size: 18px;
+    }
+}

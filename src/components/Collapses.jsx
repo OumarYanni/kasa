@@ -2,9 +2,9 @@ import Collapse from './Collapse';
 
 import '../style/collapses.css';
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+//import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 
 function Collapses(props) {

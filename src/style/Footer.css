@@ -59,8 +59,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    /*#root {
+        width: 100%;
+    }*/
+
     .footer {
-        width: 192%;
+        /*width: 192%;*/
     }
     .footer_kasa {
         margin-top: 0px;

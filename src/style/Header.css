@@ -115,9 +115,13 @@ a {
     }
 
     .links {
-        margin-right: 20px;
-        margin-left: 50px;
+        /*margin-right: 20px;
+        margin-left: 50px;*/
         width: 370px;
+        padding: 0px;
+        display: flex;
+        justify-content: end;
+        margin-right: 0px;
     }
     .link2 {
         margin-left: 25px;

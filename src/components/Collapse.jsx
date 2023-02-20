@@ -17,7 +17,7 @@ function Collapse(props) {
     // console.log(props.prod.description);
     return (
         <>        
-        {props.info ? (<section>
+        {props.info ? (<section className="collapse_section">
             <div className="collapse_title" >                                              
                 <h2 className="title">{props.info.title}</h2>                                            
                                                       

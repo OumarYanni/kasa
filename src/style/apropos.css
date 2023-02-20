@@ -1,14 +1,15 @@
 .background {
-    width: 1780px;
+   /* width: 1780px;*/
     height: 220px;
-    margin-left: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
     border-radius: 25px;
 }
 
 .background_apropos {
-    width: 1790px;
+    /*width: 1790px;*/
     height: 220px;
-    margin-left: 30px;
+    /*margin-left: 30px;*/
     border-radius: 25px;
 }
 
@@ -19,8 +20,8 @@
     }
 
     .background_apropos {
-        width: 680px;
-        height: 300px;
+        /*width: 680px;*/
+        height: 400px;
         margin: 0;
     }
 }

@@ -22,12 +22,12 @@ function Collapses(props) {
         <div className="collapse">
      
             <div> 
-                {props.product ?         
+             {props.product ?         
                 <Collapse prod={props.product}/> :
                 props.collapseInformation?.map((info) =>                             
                 <Collapse info={info}/>
-               ) 
-        } 
+                 ) 
+             } 
             </div>                         
              
         </div>

@@ -5,8 +5,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    /*margin-top: 40px;
+    margin-bottom: 40px;*/
+    margin: 40px;
+    padding: 40px;
 }
 
 .collapse_section {
@@ -51,9 +53,15 @@
 
 
 .collapses {
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;*/
+
+    display: inline-flex;
+    gap: 0 75px;
+    line-height: 22.5px;
+    list-style: none;
+    width: 100%;
  
 }
 
@@ -75,44 +83,52 @@
 }
 
 .collapse_style_des {
-    width: 900px;
+    /*width: 900px;
     margin-left: 20px; 
     margin-right: 10px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;*/
+    
+    width: 32rem;
+    /*height: 5rem;*/ 
    
 }
 
 .collapse_style_equi {
-    width: 900px;
+    /*width: 900px;
     margin-right: 20px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;*/
+
+    width: 32rem;  
+    /*height: 5rem;*/ 
 }
 
 .collapse_description_log {
     color: #FF6060;   
-    border-radius: 10px;
-    margin-top: 0px;    
+    margin-top: 0px;  
+    border-radius: 10px;  
+    /*background-color: #F6F6F6;*/ 
 }
 
-.list_description{
+/*.list_description{
     height: 200px;
-}
+}*/
 
 .list_equipment{
     margin-top: 0px;    
-    height: 200px;
+    /*height: 200px;*/
     padding-left: 0px;
 }
 
 .info_description_log {
-    height: 100px;
+    /*height: 100px;*/
     margin-top: 0px;
-    padding-top: 60px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    background-color: #F6F6F6;    
+    background-color: #F6F6F6; 
+    border-radius: 10px; 
+    font-family: 'Montserrat', sans-serif;  
 }
 
 .info_description_log_equip {
@@ -123,13 +139,21 @@
     background-color: #F6F6F6; 
 }
 
+.info_description_log_equip:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
+.info_description_log_equip:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px /*768px*/) {
     .collapse {
-    display: block;
-    margin-top: 270px;
-    margin-bottom: 205px;
+    display: flex;
+    /*margin-top: 270px;
+    margin-bottom: 205px;*/
         /* margin-left: 20px; */
     }
 

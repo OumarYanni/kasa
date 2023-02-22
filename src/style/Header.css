@@ -6,6 +6,7 @@
     color: #FF6060;
     display: flex;
     justify-content: space-between;
+    height: 200px;
 }
 
 .kasa {
@@ -120,7 +121,7 @@ a {
         width: 300px;
         padding: 0px;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         margin-right: 0px;
     }
 

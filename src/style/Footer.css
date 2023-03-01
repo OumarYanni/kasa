@@ -59,13 +59,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    /*#root {
-        width: 100%;
-    }*/
-
-    /*.footer {
-        width: 192%;
-    }*/
     .footer_kasa {
         margin-top: 0px;
     }
@@ -85,5 +78,9 @@
 
     .footer_a {
         margin-top: 25px;
+    }
+
+    .footer_text {
+        font-size: 12px; 
     }
 }

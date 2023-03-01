@@ -6,37 +6,26 @@
     color: #FF6060;
     display: flex;
     justify-content: space-between;
-    height: 200px;
+    height: 170px;
+    padding: 2%;
 }
 
 .kasa {
     display: flex;
+    align-items: center;
     font-weight: bold;
-    margin-left: 40px;
+    max-width: 40%;
 }
 
 .logo {
-   width: 46px;
-   height: 53px;
-   margin-right: 5px;
-   margin-top: 70px;
-}
-
-.K {
-    font-size: 90px;
-    margin-right: 5px;
-    margin-top: 33px;
-}
-
-.SA {
-    font-size: 90px;
-    margin-top: 35px;
-    margin-right: 5px;
+   width: 100%;
+   object-fit: contain;
 }
 
 ul {
     list-style: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 a {
@@ -45,13 +34,14 @@ a {
 
 .links {
     display: flex;
-    margin-top: 90px;
-    margin-right: 40px;
     font-size: 24px;
+    padding: 0;
+    margin:0;
+    align-items: center;
 }
 
-.link1 {
-    margin-right: 50px;
+.links li:first-child{
+    margin-right: 20px;
 }
 
 .activeLink {
@@ -59,102 +49,22 @@ a {
     text-decoration: none;
 }
 
-.banner {
-    display: flex;
-    justify-content: center;
-}
 
-.banner_img {
-    max-width: 93%;
-    /*margin-left: 6%;*/
-    border-radius: 25px;
-    height: 226px;
-    filter: brightness(0.8)
-}
-
-/*.paysage_dispo {
-    display: flex;
-}*/
-
-.banner_paragraphe {
-    /*z-index: 1;*/
-    position: absolute;
-    top: 240px;
-    left: 25%;
-    color: #ffff;
-    font-weight: 600;
-    font-size: 48px;
-}
-
-            /* TABLETTE */
+/* TABLETTE */
 
 @media all and (min-width: 768px) and (max-width: 992px) {
     .navbar {
        display: flex;
        justify-content: space-between;
+       height: 280px;
     }
 }
 
 
-        /* MOBILE */
+/* MOBILE */
 @media screen and (max-width: 768px) {
 
-    /* .navbar {
-        width: 100%;
-    } */
-    .K {
-        margin-bottom: 20px;
-    }
-
-    .SA {
-        margin-bottom: 20px;
-    }
-
-    .logo {
-        margin-left: 5px;
-        margin-bottom: 20px;
-    }
-
     .links {
-        /*margin-right: 20px;
-        margin-left: 50px;*/
-        width: 300px;
-        padding: 0px;
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 0px;
-    }
-
-    .link1 {
-        margin-right: 10px;
-    }
-
-    .link2 {
-        margin-left: 25px;
-    }
-
-    .banner {
-        width: max-content;
-    }
-
-    .banner_img {
-        display: flex;
-        width: 660px;
-        /* top: 83px; */
-        left: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    /*.paysage_dispo {
-        flex-wrap: wrap;
-    }*/
-
-    .banner_paragraphe {
-        
-        left: 10%;
-        width: 635px;
-        
-        margin: 0px;
+        font-size: 12px;
     }
 }

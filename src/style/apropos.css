@@ -1,27 +1,16 @@
 .background {
-   /* width: 1780px;*/
     height: 220px;
-    margin-left: 35px;
-    margin-right: 35px;
-    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .background_apropos {
-    /*width: 1790px;*/
-    height: 220px;
-    /*margin-left: 30px;*/
-    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
 
-    .background {
-        width: 600px;
-    }
-
-    .background_apropos {
-        /*width: 680px;*/
-        height: 400px;
-        margin: 0;
-    }
 }

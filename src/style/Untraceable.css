@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Nunito:wght@200&family=Roboto+Mono:wght@200&family=Roboto:wght@300&family=Shrikhand&family=Square+Peg&display=swap');
 
+
 .error {
     font-family: 'Montserrat', sans-serif;
     color: #FF6060;
@@ -7,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: calc(100vh - 351.8px);
 }
 
 .numero {
@@ -30,7 +32,7 @@
 
     .error {
         margin: 0 20px;
-        height: 680px;
+        /* height: 680px; */
     }
 
     .numero {
